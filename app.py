@@ -11,7 +11,7 @@ def get_info():
     github_repo_url = 'https://github.com/tobexint/Zuri'
 
     utc_time = datetime.utcnow()
-    if current_utc_time.hour < 22 and current_utc_time.hour > 2:
+    if utc_time.hour < 22 and utc_time.hour > 2:
         return jsonify({
             'slack_name': slack_name,
             'current_day': "Monday",
