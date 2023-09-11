@@ -8,7 +8,7 @@ def get_info():
     name = request.args.get('name')
     track = request.args.get('track')
     github_file_url = 'https://github.com/tobexint'
-    github_repo_url = 'https://github.com/tobexint'
+    github_repo_url = 'https://github.com/tobexint/Zuri'
 
     current_utc_time = datetime.utcnow()
     if current_utc_time.hour < 22 and current_utc_time.hour > 2:
