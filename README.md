@@ -5,4 +5,4 @@
 - The endpoint should take two GET request query parameters and return specific
   information in JSON format.
 
--Hosted on https://tobexinx.onrender.com/api
+- Hosted on https://tobexinx.onrender.com/api
